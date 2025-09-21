@@ -1,58 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
+<lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="prt.css">
-    <title>Portofolio</title>
+    <link rel="stylesheet" href="prt2.css">
+    <title>Portfolio</title>
 </head>
-<body>
     <header>
-        <h1>Giyuu</h1>
+        <h1>Giyuu Tomioka</h1>
         <nav>
             <ul>
-                <li><a href="Home">Home</a></li>
-                <li><a href="About">About</a></li>
-                <li><a href="Contact">Contact</a></li>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#more">About</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <section id="Tentang saya">
-            <h2>Tentang saya</h2>
-           <div class="img-container">
-                <img id="img1" src="42d759e0e6562f5be015574258ae8159.jpg" alt="Giyu Tomika" width="300" height="350">
-           </div>
-            <p>Giyu Tomioka adalah pilar pertama yang muncul di Kimetsu no Yaiba, mendapat spin-off, dan lebih populer dari Tanjiro dalam polling popularitas kedua.</p>
-        </section>
     
-
-    <section id="tentang">
-        <h2>More</h2>
-        <div class="Proyek-container">
-            <div class="Proyek-kartu">
-                <h3>Tentang saya</h3>
-                <p>Giyu Tomioka adalah salah satu karakter anime yang tanggal lahirnya ditetapkan di bulan Februari oleh pengarang. Dengan tanggal lahir 8 Februari, Giyu termasuk karakter anime yang berzodiak Aquarius. Giyu Tomioka diketahui berusia 19 tahun pada bab 1 kimetsu no yaiba, sedangkan pada bab 28 terungkap umur Giyu adalah 21 tahun.</p>
+    <main>
+        <section id="about">
+            <h2>Tentang Saya</h2>
+            <div class="img-container">
+                <img id="img1" src="42d759e0e6562f5be015574258ae8159.jpg" alt="Giyuu Tomioka" width="200" height="350">
             </div>
-        </div>
+            <p class="about-text">Giyuu Tomioka adalah pilar pertama yang muncul di Kimetsu no Yaiba, mendapat spin-off, dan lebih populer dari Tanjiro dalam polling popularitas kedua. Sebagai Hashira Air, dia adalah salah satu pendekar pedang terkuat dalam Korps Pembunuh Iblis.</p>
+        </section>
 
-    </section>
+        <section id="more">
+            <h2>More About Giyuu</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Detail Karakter</h3>
+                    <p>Giyuu Tomioka adalah salah satu karakter anime yang tanggal lahirnya ditetapkan di bulan Februari oleh pengarang. Dengan tanggal lahir 8 Februari, Giyuu termasuk karakter anime yang berzodiak Aquarius. Giyuu Tomioka diketahui berusia 19 tahun pada bab 1 Kimetsu no Yaiba, sedangkan pada bab 28 terungkap umur Giyuu adalah 21 tahun.</p>
+                </div>
+            </div>
+        </section>
 
-    <main id="proyek">
-        <h2>Hubungin saya</h2>
-        <form>
-            <label for="Nama">Nama</label>
-            <input type="text" id="name" nama="nama">
-            <label for="Contact">Contact</label>
-            <input for="text" id="Contact" nama="Contact">
-            <textarea id="pesan">Pesan</textarea>
-            <button type="submit">Submit</button>
-        </form>
+        <section id="contact">
+            <h2>Hubungi Saya</h2>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="nama" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="contact">Contact</label>
+                    <input type="text" id="contact" name="contact" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="pesan">Pesan</label>
+                    <textarea id="pesan" name="pesan" placeholder="Tulis pesan Anda di sini..." required></textarea>
+                </div>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
-    </section>
     
     <footer>
-        <p>&copy;  </p>
+        <p>&copy; 2025 Giyuu Tomioka Portfolio. All rights reserved.</p>
     </footer>
 </body>
 </html>
